@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h4>University Journal of ICT in Multidisciplinary Issues on Arts & Science,</h4>
+            <div class="header__logo">
+                <img src="logo.jpg" alt="" width="100">
+            </div>
+            <div class="header__title">
+                <h5>Engineering, Economics and Education (Volume-1)</h5>
+            </div>
+            <div class="header__image">
+                <img src="journal_logo.png" alt="" width="250">
+            </div>
+        </div>
+
+        <div class="navbar">
+
+            <ul>
+
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html">Topic</a></li>
+                <li><a href="home.html">Call For Papers</a></li>
+                <li><a href="home.html">Editorial Board</a></li>
+                <li><a href="home.html">Download Session</a></li>
+                <li><a href="home.html">Contact Us</a></li>
+
+            </ul>
+
+        </div>
+        <div class="main-body">
+
+            <div class="main-body__left-section">
+                <h1>Contact Us</h1>
+                <div class="main-body__left-section_contact-item">
+                    <p>Tel : <a href="#">+95 9-794065357</a>,<a href="#">9-421037973</a></p>
+                    <p>Email : <a href="journal@ucsh.edu.mm">journal@ucsh.edu.mm</a></p>
+                    <p>Website : <a href="ujim-ucsh.org">ujim-ucsh.org</a></p>
+                </div>
+                <div id="googleMap" style="width:100%;height:400px;"></div>
+            </div>
+
+            <div class="main-body__right-section">
+                    <form>
+                        <legend>Get In Touch</legend>
+                        <label for="name">Your Name(required)</label><br>
+                        <input type="text"/><br>
+                        <label for="email">Your Email(required)</label><br>
+                        <input type="email"/><br>
+                        <label for="subject">Subject</label><br>
+                        <input type="text"/><br>
+                        <label for="message">Your Message</label><br>
+                        <textarea cols="46" rows="10"></textarea><br>
+                        <button>Send</button>
+                    </form>
+            </div>
+
+        </div>
+        
+        <div class="footer">
+            <h3>© UJIM - 2020</h3>
+        </div>
+    </div>
+
+
+        <script>
+        function myMap() {
+        var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?AIzaSyDUNEEjMX20yMN7EaJqbrMRrQ9_0mfyLXA&callback=myMap"></script>
+</body>
+</html>

@@ -1,0 +1,319 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+/* This is header section */
+
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    padding: 12px;
+    height: 23%;
+    background-color: darkblue;
+}
+
+.header h4{
+    margin: 0px 0px;
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header div{
+    float: left;
+}
+
+.header__logo{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.header__logo img{
+    position: absolute;
+    right: 220px;
+}
+
+.header__title {
+    width: 40%;
+    height: 100%;
+}
+.header__title h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    color: yellow;
+    margin : 0px;
+}
+
+.header__image{
+    width: 30%;
+    height: 100%;
+}
+
+/* this is navbar section */
+
+.navbar{
+    position: absolute;
+    top: 171px;
+    width: 100%;
+    background-color: aqua;
+    padding: 8px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 12px 36px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 0px 12px 12px 12px;
+}
+
+/* This is image slide section */
+
+.image_slide{
+    position: absolute;
+    top : 235px;
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+/* this is content part */
+
+.content{
+    position: absolute;
+    top: 740px;
+    margin: 0px 120px 0px 120px;
+}
+
+.content__title {
+    margin: 48px 0px 20px 0px;
+    text-align: center;
+}
+
+.content__title h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: darkblue;
+    margin: 0;
+}
+
+.content__title p {
+    font-size: 16px;
+    margin: 0px;
+    color: darkblue;
+}
+
+.content__column_container{
+    width: 100%;
+    background-color: crimson;
+}
+
+.content__left_column{
+    position: absolute;
+    left: 4px;
+    float: left;
+    width: 40%;
+    
+}
+
+.content__left_column_card{
+    background-color: lightskyblue;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.content__left_column hr{
+    margin: 0px 12px;
+}
+
+.content__left_column_title{
+    color: red;
+    font-size: 18px;
+    margin: 12px 12px 12px 12px;
+    font-weight: 700;
+}
+
+.content__left_column_list_title{
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 18px 12px 0px 12px;
+}
+
+.content__left_column ul{
+    margin: 0px 12px;
+}
+
+.content__left_column ul li{
+    margin: 0px;
+    font-size: 15px;
+}
+
+.content__left_column_list_title__nolist{
+    margin: 0px 12px;
+    color: blue;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content__left_column_download_session{
+    position: absolute;
+    top: 1125px;
+    text-align: center;
+    height: 100px;
+    background-color: skyblue;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content__left_column_download_session h1{
+    margin-top: 24px;
+}
+
+.content__right_column{
+    position: absolute;
+    right: 4px;
+    float: left;
+    width: 55%;
+    height: auto;
+}
+
+.content__right_column_card{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px 0 rgba(44, 43, 43, 0.2);
+    overflow: hidden;
+}
+
+.content__right_column_card h4{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.content__right_column_card_left{
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+.content__right_column_card_left label{
+    display: block;
+    font-size: 17px;
+}
+
+.content__right_column_card_right{
+    width: 50%;
+    display: block;
+    float: left;
+}
+.content__right_column_card_right_label label{
+    display: block;
+    font-size: 17px;
+}
+
+.contact_person{
+    position: absolute;
+    top: 400px;
+    width: 48%;
+    padding: 18px 36px;
+    border-radius: 8px;
+    background-color: lightskyblue;
+}
+
+.contact_person div{
+    float: left;
+    margin: 0px;
+}
+
+.contact_person h4{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.contact_person_left_section{
+    width: 50%;
+}
+
+.contact_person_right_section{
+    width: 50%;
+}
+
+.contact_person_left_section label{
+    margin: 0px;
+}
+
+.contact_person_right_section label{
+    margin: 0px;
+    position: absolute;
+    left: 180px;
+}
+.contact_person__label{
+    margin: 0px;
+}
+
+.content__right_column__submission{
+    margin: 24px 0px 0px 0px;
+}
+
+.content__right_column__submission p{
+    text-indent: 10%;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.content__right_column__title{
+    margin: 0px;
+    font-size: 20px;
+    color: brown;
+}
+
+.content__right_column__important_dates{
+    margin: 24px 0px;
+}
+
+.content__right_column__important_dates label{
+    font-size: 17px;
+}
+
+.content__right_column__registration_fee{
+    margin: 24px 0px;
+}
+
+.content__right_column__registration_fee label{
+    margin: 0px;
+    display: block;
+}
+
+.red{
+    color: red;
+}
+
+.content__right_column_paper_link p{
+    margin: 0px;
+}
+
+.footer{
+    position: absolute;
+    top: 2175px;
+    width: 100%;
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 24px;
+}

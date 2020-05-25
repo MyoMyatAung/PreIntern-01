@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+/* This is header section */
+
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    padding: 12px;
+    height: 23%;
+    background-color: darkblue;
+}
+
+.header h4{
+    margin: 0px 0px;
+    color: yellow;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header div{
+    float: left;
+}
+
+.header__logo{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.header__logo img{
+    position: absolute;
+    right: 220px;
+}
+
+.header__title {
+    width: 40%;
+    height: 100%;
+}
+.header__title h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    color: yellow;
+    margin : 0px;
+}
+
+.header__image{
+    width: 30%;
+    height: 100%;
+}
+
+/* this is navbar section */
+
+.navbar{
+    position: absolute;
+    top: 171px;
+    width: 100%;
+    background-color: aqua;
+    padding: 8px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 12px 36px;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 0px 12px 12px 12px;
+}
+
+.main-body{
+    position: absolute;
+    top: 238px;
+    margin: 0px 0px;
+    width: 100%;
+}
+
+.main-body div{
+    float: left;
+}
+
+.main-body__left-section{
+    position: relative;
+    margin: 24px 0px 0px 100px;
+    width: 45%;
+}
+
+.main-body__left-section h1{
+    border-bottom: 4px dotted gray;
+    margin: 12px 18px;
+    font-weight: 500;
+}
+
+.main-body__left-section_contact-item{
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main-body__left-section_contact-item a{
+    text-decoration: none;
+}
+
+.main-body__left-section_contact-item p{
+    margin: 0px;
+}
+
+#googleMap{
+    margin: 24px 0px;
+}
+
+.main-body__right-section{
+    margin: 24px 100px 0px 0px;
+    width: 40%;
+    min-height: 100px;
+}
+
+
+.main-body__right-section form{
+    position: relative;
+    top: 36px;
+    left: 80px;
+}
+
+.main-body__right-section legend{
+    font-size: 24px;
+    margin: 24px 0px;
+}
+
+.main-body__right-section input{
+    width: 60%;
+    height: 24px;
+}
+
+button{
+    width: 100px;
+    height: 36px;
+    font-size: 18px;
+}
+
+.footer{
+    position: absolute;
+    top: 900px;
+    background-color: darkblue;
+    width: 100%;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.footer h3{
+    color: yellow;
+    font-weight: 500;
+}
