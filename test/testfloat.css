@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0s;
+}
+
+.header{
+    background-color: teal;
+    height: 150px;
+}
+
+.body{
+}
+
+.left{
+    float: left;
+    width: 30%;
+    background-color: red;
+}
+
+.right {
+    width: 70%;
+    float: right;
+    background-color: magenta;
+}
+
+.footer{
+    clear: both;
+    background-color: teal;
+}
