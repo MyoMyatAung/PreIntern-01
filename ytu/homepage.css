@@ -1,0 +1,365 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-1{
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.navbar-1 ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+}
+
+.navbar-1 ul li {
+    display: inline;
+    margin: 0px 12px;
+}
+
+.navbar-1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-1 ul li a:hover{
+    color: #bbb;
+    text-decoration: none;
+}
+
+.header-image{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-2{
+    width: 100%;
+    background-color: #444444;
+    padding: 8px;
+}
+
+.navbar-2 ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+}
+
+.navbar-2 ul li {
+    display: inline;
+    margin: 0px 8px;
+}
+
+.navbar-2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #999999;
+}
+
+.navbar-2 ul li a:hover{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+.slide-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('slideimage2.jpeg');
+    height: 440px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.slide-image-content{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 360px;
+    display: flex;
+}
+
+.slide-image-content__left-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+
+.slide-image-content__left-image img{
+    width: 60%;
+    height: 300px;
+}
+
+.slide-image-content__right-texts{
+    flex: 3;
+}
+
+.slide-image-content__right-texts p{
+    width: 80%;
+}
+
+.read-more{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.obj-miss-prog{
+    margin: 24px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.obj-miss-prog p {
+    text-align: justify;
+}
+
+.objective{
+    width: 25%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px #ccc;
+    display: flex;
+    margin: 12px 18px;
+    padding: 12px;
+}
+
+.objective__icon{
+    flex: 2;
+}
+
+.objective__icon__container{
+    margin: 12px 40px 0px -40px ;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.objective__content{
+    flex: 6;
+    margin: 0;
+}
+
+.objective__content h2{
+    margin: 0;
+}
+
+.rector-message{
+    display: flex;
+    margin: 0px 110px;
+    justify-content: center;
+}
+
+.rector_image img{
+    width: 400px;
+
+}
+
+.rector_message{
+    margin-left: 24px;
+}
+
+.rector-message h1{
+    color: orange;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.rector_message p{
+    text-align: justify;
+}
+
+.rector-message button{
+    position: relative;
+    bottom: 8px;
+    left: 580px;
+}
+
+.ytu-events{
+    margin: 0px 110px;
+    text-align: center;
+}
+
+.ytu-events button{
+    position: relative;
+    left: 514px;
+}
+
+.ytu-events h1{
+    color: orange;
+    font-weight: 400;
+}
+
+.events{
+    display: flex;
+}
+
+.events img{
+    width: 260px;
+    height: 240px;
+}
+
+.event1{
+    width: 26%;
+}
+
+.event2{
+    width: 26%;
+}
+
+.event3{
+    width: 26%;
+}
+
+.event4{
+    width: 26%;
+}
+
+.welcome-ytu{
+    margin: 0px 110px;
+    text-align: center;
+}
+
+.welcome-ytu h1{
+    color: orange;
+}
+
+.welcome-ytu p{
+    text-align: justify;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.dept-lect-stud{
+    margin: 24px 0px;
+    width: 100%;
+    background-image: url('slideimage2.jpeg');
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dept-lect-stud__container{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dls{
+    margin: 0px 24px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+.dls h2{
+    font-weight: 400;
+    font-size: 28px;
+    color: orange;
+}
+
+.dls h3{
+    color: white;
+}
+
+.updated-news{
+    text-align: center;
+    margin: 0px 110px;
+}
+
+.updated-news button{
+    margin: 12px;
+    position: relative;
+    left: 520px;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_item_container{
+    border: 1px solid #999;
+    width: 40%;
+    margin: 8px 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.event_item_container img{
+    width: 100%;
+    height: 240px;
+}
+
+.event_item_container h4{
+    font-weight: 400;
+    margin: 0px 0px 4px 0px;
+    color: orange;
+}
+
+.footer{
+    background-color: #444444;
+    height: 350px;
+    display: flex;
+    padding: 32px 110px;
+    color: white;
+}
+
+.about_ytu{
+    width:30%;
+    margin: 0px 12px;
+}
+
+.our_links{
+    width:30%;
+    margin: 0px 12px;
+}
+
+.our_links ul {
+    list-style-type: disc;
+}
+
+.our_links ul li a{
+    text-decoration: none;
+    color : white;
+}
+
+.recent_post{
+    width:30%;
+    margin: 0px 12px;
+}
+.recent_post img{
+    float: left;
+    margin: 0px 12px;
+}
+.recent_post h4{
+    margin: 0px;
+}
