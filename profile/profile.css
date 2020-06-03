@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.right-side{
+    flex : 2;
+}
+
+.right-side img{
+    border-radius: 5px;
+    margin: 18px 18px;
+}
+
+.right-side h2{
+    margin: 0px 18px;
+}
+
+.right-side label{
+    display: block;
+    margin: 0px 18px;
+    color: #555555;
+}
+
+.right-side h3{
+    font-weight: 400;
+}
+
+.right-side h3:hover{
+    background-color: #888888;
+}
+
+.right-side ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+.right-side ul li{
+    display: inline;
+}
+
+.left-side{
+    flex : 8;
+    background-color: #eeeeee;
+    padding: 12px 12px 0px 12px;
+}
+
+.search{
+    float: right;
+    height: 100%;
+    padding-top: 28px;
+    padding-right: 32px;
+}
+
+.search input{
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    height: 24px;
+    width: 200px;
+    box-shadow: 0px 2px 3px #cccccc;
+}
+
+.search button{
+    width: 100px;
+    height: 28px;
+    color: white;
+    background-color: #555555;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-shadow: 0px 2px 3px #cccccc;
+}
+
+.head h1{
+    float: left;
+}
+
+hr{
+    clear: both;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+.project-item{
+    width: 30%;
+    margin: 12px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px #cccccc;
+    padding: 4px;
+}
+
+.project-item h3{
+    display: block;
+    margin: 0px;
+}
+
+.project-item p{
+    text-align: justify;
+    text-indent: 10%;
+}
+
+.about p{
+    text-indent: 10%;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_item{
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px #cccccc;
+    width: 45%;
+    margin: 12px;
+    overflow: hidden;
+}
+
+.skill_item h3{
+    margin: 0px 0px 0px 12px;
+}
+
+.skill_item img{
+    float: left;
+    margin-right: 12px;
+}
+
+.contact_me{
+    background-color: #888888;
+    padding: 12px;
+}
+
+.contact_me label{
+    font-size: 18px;
+}
+
+.contact_me input{
+    width: 100%;
+    height: 28px;
+}
+
+.contact_me button{
+    margin: 12px 0px;
+    width: 30%;
+    background-color: #555555;
+    color: white;
+    border: 1px solid #555555;
+    height: 32px;
+}
+
+.contact_me hr{
+    margin: 24px 0px;
+}
+
+.contact_item_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_item{
+    width: 25%;
+    height: 80px;
+    padding: 18px;
+    background-color: #555555;
+    color: white;
+    text-align: center;
+}
+
+.contact_item i{
+    display: block;
+    font-size: 48px;
+}
+
+.footer{
+    height: 320px;
+    background-color: #555555;
+    display: flex;
+    padding: 12px;
+    color: white;
+}
+
+.right{
+    flex : 2;
+}
+
+.left p{
+    text-align: justify;
+}
+
+.left label{
+    display: block;
+}
+
+.right label{
+    display: block;
+}
+
+.middle{
+    flex : 2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.middle h3{
+    margin: 18px 0px 0px 0px;
+}
+.middle ul{
+    margin: 0px;
+}
+
+.left{
+    flex : 2;
+}
+
+.powerby{
+    margin: 0px;
+    width: 100%;
+    background-color: #111111;
+    height: 60px;
+    text-align: center;
+    padding-top: 18px;
+    color: white;
+}
+.powerby h2{
+    font-weight: 400;
+    margin: 0px;
+}
