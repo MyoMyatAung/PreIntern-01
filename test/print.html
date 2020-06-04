@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Response Testing</title>
+    <style>
+        @media print{
+            .screenonly{
+                display: none;
+            }
+        }
+        @media (min-width: 600px){
+            p{
+                background-color: blueviolet;
+            }
+        }
+        @media (max-width: 500px){
+            p{
+                background-color: aquamarine;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit
+        mollitia porro atque quaerat unde eum eaque architecto natus nemo
+        repudiandae, incidunt rem tempora ipsa quam exercitationem rerum. Sit,
+        voluptatem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam in
+        expedita iusto, quod porro dolorum. Doloribus, natus tenetur! Totam
+        repellat quisquam autem fugit sequi nemo hic impedit optio ipsam eaque.
+      </p>
+      <p class="screenonly">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam fuga
+        laudantium deserunt, dolorem laboriosam corrupti vel neque. Esse
+        asperiores nisi quod magnam cupiditate, earum quam aspernatur provident
+        odit aperiam dolores?
+      </p>
+    </div>
+  </body>
+</html>
