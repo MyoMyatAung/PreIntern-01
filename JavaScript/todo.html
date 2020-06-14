@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo JavaScript</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <ul id="todo-list"></ul>
+    <form id="myForm">
+      <input type="text" name="todo" id="todo" />
+      <button type="submit" id="btn">Submit</button>
+    </form>
+    <script>
+      const todoList = document.querySelector("#todo-list");
+      const myForm = document.querySelector("#myForm");
+      const button = document.querySelector("#btn");
+      const inpTodo = document.querySelector("#todo");
+      button.disabled = true;
+
+      inpTodo.addEventListener("input", () => {
+        button.disabled = false;
+      });
+
+      myForm.onsubmit = () => {
+        const todoValue = document.querySelector("#todo").value;
+        const li = document.createElement("li");
+        li.innerHTML = todoValue;
+        todoList.appendChild(li);
+        return false;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Heading Color</title>
+</head>
+<body>
+    <h1 id="head">Hello! Welcome to Our PreIntern Group.</h1>
+    <select name="color" id="color">
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+    </select>
+    <script>
+        document.addEventListener('DOMContentLoaded',()=>{
+            const head = document.querySelector('#head');
+            const select = document.querySelector("#color");
+            select.onchange = ()=>{
+                head.style.color = select.value;
+            }
+        });
+    </script>
+</body>
+</html>
